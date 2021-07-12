@@ -1,0 +1,252 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear:both
+}
+.container{
+	width: 985px;
+	margin: auto;
+}
+
+/* section */
+section{
+	width: 100%;
+	height: 720px;
+	background-color: #f0f2f5;
+}
+.recently{
+	margin-top: 97px;
+	display: inline-block;
+	/* background-color: aqua; */
+}
+
+/* -----header-----*/
+.fb{
+	color: #1f6eff;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing:-2px;
+	font-size: 40px;
+	font-weight: 650;
+	line-height: 1.7;
+}
+.title{
+	color: rgba(0, 0, 0, 0.856);
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25.5px;
+	line-height: 1.5;
+}
+.content{
+	color: #737373;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+/* -----Accounts------ */
+.acc{
+	display: inline-block;
+	margin-top: 25px;
+	margin-right: 15px;
+	width: 160px;
+	background-color : white;
+	border-radius: 10px;
+	box-shadow: 0 0 0 1px #dddfe2;
+}
+img{
+	position: relative;
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.name{
+	text-align: center;
+	color: #555454;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	padding-top: 10px;
+	margin-bottom: -5px;
+}
+.acc>a{
+	text-decoration-line: none;
+}
+.noti{
+	color: white;
+	font-size: 13px;
+	font-family: Helvetica, Arial, sans-serif;
+	position: absolute;
+	margin-top: -168px;
+	margin-left: 145px;
+	background-color: rgb(255, 30, 0);
+	padding: 4px 8px 4px 8px;
+	border-radius: 15px;
+}
+.close{
+	color: rgba(255, 255, 255, 0.747);
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	position: absolute;
+	margin-top: -161px;
+	margin-left: 2px;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 0px 4.6px 0px 4.6px;
+	border-radius: 16px;
+}
+/* -----Add account----- */
+.add .name{
+	color: #1f6eff;
+	border-top: 1px solid #dddfe2;
+}
+.add img{
+	position: relative;
+	width: 43px;
+	margin: auto;
+	display: block;
+	margin-bottom: 56px;
+}
+.add{
+	padding-top: 66px;
+}
+
+
+/* -----Login----- */
+.right{
+	margin-top: 132px;
+	text-align: center;
+	float: right;
+}
+.login{
+	width: 400px;
+	box-shadow: 0 0 15px 1px #c4c4c4;
+	background-color: white;
+	border-radius: 8px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.login>a,.more>a{
+	text-decoration-line: unset;
+}
+input,.login a{
+	width: 364px;
+	margin: auto;
+	font-family: Helvetica, Arial, sans-serif;
+}
+input{
+	border: 1px solid #dddfe2 ;
+	border-radius: 8px;
+	font-size: 17px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+::placeholder{
+	color: #8A8D91
+}
+
+
+.login a>button{
+	color: white;
+	width: 364px;
+	background-color: #1f6eff;
+	font-size: 18px;
+	font-weight: 750;
+	font-family: Helvetica, Arial, sans-serif;
+	border-style: unset;
+	border-radius: 8px;
+	padding: 15px;
+	margin-top: 3px;
+	margin-bottom: 15px;
+}
+.forget{
+	color: #1f6eff;
+	font-size: 14px;
+}
+.login hr{
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.new>a button{
+	background-color: rgb(3, 190, 43);
+	width: 180px;
+	font-size: 17px;
+}
+.more{
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 20px;
+	color: rgba(0, 0, 0, 0.856);
+}
+.more>a{
+	color: rgba(0, 0, 0, 0.856);
+	font-weight: bold;
+}
+
+
+
+/* footer */
+.footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+nav>a{
+	color: #8A8D91;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.6;
+	font-size: 12px;
+	text-decoration-line: none;
+}
+.tiengViet{
+	color: #737373;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.6;
+	font-size: 12px;
+}
+.tiengViet,.lang{
+	display: inline-block;
+}
+.tiengViet,.footer a,.acc a{
+	padding-right: 16px;
+}
+.footer button{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	color: #8A8D91;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 0.6;
+	border: 0.5px solid;
+    border-radius: 3px;
+}
+button{
+	cursor: pointer;
+}
+hr{
+	margin-top:8px;
+	margin-bottom: 8px;
+}
+.copyright{
+	color: #737373;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.6;
+	font-size: 11px;
+	margin-top: 20px;
+}
+/* -----hover----- */
+
+.recently .acc:hover{
+	box-shadow: 0 0 15px 2px #c4c4c4;
+	transition: 0.4s ;
+}
+.login a>button:hover{
+	background-color:#2168ec ;
+}
+.new>a button:hover{
+	background-color: rgb(3, 177, 41);
+}
+.forget:hover,.more>a:hover{
+	text-decoration-line: underline;
+}
